@@ -1,6 +1,6 @@
 {
   "name": "leaflet-multicontrol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Leaflet plugin to implements layers control with multiple functionality such as opacity, color, bringToFront, bringToBack, zoomToLayer, delete and legend.",
   "main": "./src/L.multiControl.js",
   "scripts": {
