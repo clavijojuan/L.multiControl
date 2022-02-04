@@ -1,0 +1,38 @@
+{
+  "name": "leaflet-multicontrol",
+  "version": "1.0.0",
+  "description": "Leaflet plugin to implements layers control with multiple functionality such as opacity, color, bringToFront, bringToBack, zoomToLayer, delete and legend.",
+  "main": "./src/L.multiControl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clavijojuan/L.multiControl.git"
+  },
+  "keywords": [
+    "leaflet",
+    "map",
+    "layers",
+    "control",
+    "legend",
+    "javascript",
+    "webmapping",
+    "control",
+    "webgis",
+    "leaflet",
+    "control",
+    "layers",
+    "opacity",
+    "layers",
+    "color",
+    "layer",
+    "legend"
+  ],
+  "author": "Juan Camilo Clavijo Sandoval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clavijojuan/L.multiControl/issues"
+  },
+  "homepage": "https://github.com/clavijojuan/L.multiControl#readme"
+}
