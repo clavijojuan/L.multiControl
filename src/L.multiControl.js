@@ -299,6 +299,11 @@ L.Control.multiControl = L.Control.extend({
 
     addOverlay(layer){
 
+        if(!this.overlays) {
+            this.overlays = [];
+            this.toggle();
+        }
+
         this.overlays.push(layer);
 
         const body = document.querySelector('.leaflet-controllable-legend-body');
