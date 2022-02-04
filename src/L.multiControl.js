@@ -35,15 +35,14 @@ L.Control.multiControl = L.Control.extend({
 
     createBody: function(){
         const body = L.DomUtil.create('div', 'leaflet-controllable-legend-body');
+        const overlaysContainer = L.DomUtil.create('div');
+        body.append(overlaysContainer);
 
         if(this.overlays && this.overlays.length > 0){
-            const overlaysContainer = L.DomUtil.create('div');
-
             this.overlays.forEach((overlay, i)=>{
                 const div = this.createChild(overlay, i);
                 overlaysContainer.append(div);
             });
-            body.append(overlaysContainer);
         }
         
         return body
@@ -304,7 +303,7 @@ L.Control.multiControl = L.Control.extend({
 
         const body = document.querySelector('.leaflet-controllable-legend-body');
         const overlaysContainer = body.firstChild;
-        const index = overlaysContainer.childNodes.length;
+        const index = overlaysContainer?.childNodes?.length || 0;
         const div = this.createChild(layer, index)
         
         overlaysContainer.append(div);
