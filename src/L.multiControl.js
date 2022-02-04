@@ -179,7 +179,7 @@ L.Control.multiControl = L.Control.extend({
                 const groups = overlay.layer.getLayers().map((sublayer)=>{
                     return {
                         color: sublayer.options.color, 
-                        elemName: sublayer.options.legendLabel
+                        elemName: sublayer.options.legendLabel || overlay.name
                     }
                 });
 
